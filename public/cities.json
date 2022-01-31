@@ -1,86 +1,58 @@
 [
   {
     "id": "1",
-    "name": "Toronto",
-    "state": "ON",
-    "country": "CA"
+    "name": "Toronto"
   },
   {
     "id": "2",
-    "name": "Vancouver",
-    "state": "BC",
-    "country": "CA"
+    "name": "Vancouver"
   },
   {
     "id": "3",
-    "name": "New York",
-    "state": "NY",
-    "country": "USA"
+    "name": "New York"
   },
   {
     "id": "4",
-    "name": "Los Angeles",
-    "state": "CA",
-    "country": "USA"
+    "name": "Los Angeles"
   },
   {
     "id": "5",
-    "name": "Chicago",
-    "state": "IL",
-    "country": "USA"
+    "name": "Chicago"
   },
   {
     "id": "6",
-    "name": "Miami",
-    "state": "FL",
-    "country": "USA"
+    "name": "Miami"
   },
   {
     "id": "7",
-    "name": "Tokyo",
-    "state": "ON",
-    "country": "JA"
+    "name": "Tokyo"
   },
   {
     "id": "8",
-    "name": "Long Beach",
-    "state": "ON",
-    "country": "USA"
+    "name": "Long Beach"
   },
   {
     "id": "9",
-    "name": "London",
-    "state": "ON",
-    "country": "USA"
+    "name": "London"
   },
   {
     "id": "10",
-    "name": "Newcastle",
-    "state": "ON",
-    "country": "USA"
+    "name": "Newcastle"
   },
   {
     "id": "11",
-    "name": "Nevada City",
-    "state": "ON",
-    "country": "USA"
+    "name": "Nevada City"
   },
   {
     "id": "12",
-    "name": "Charlotte",
-    "state": "ON",
-    "country": "USA"
+    "name": "Charlotte"
   },
   {
     "id": "13",
-    "name": "Mississauga",
-    "state": "ON",
-    "country": "USA"
+    "name": "Mississauga"
   },
   {
     "id": "14",
-    "name": "Minato",
-    "state": "ON",
-    "country": "USA"
+    "name": "Minato"
   }
 ]
