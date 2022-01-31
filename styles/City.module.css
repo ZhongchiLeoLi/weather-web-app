@@ -1,0 +1,154 @@
+@font-face {
+  font-family: neutralFace;
+  src: url(../public/NeutralFace.otf);
+}
+
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/clearSky.png");
+  background-size: cover;
+}
+
+.clear {
+  background-image: url("../public/clearSky.png");
+}
+
+.clouds {
+  background-image: url("../public/backClouds.png");
+}
+
+.dim {
+  background-image: url("../public/cloudy2.png");
+}
+
+.container {
+  width: 60rem;
+  max-width: 90vw;
+}
+
+.cols {
+  display: flex;
+}
+
+.leftCol {
+  width: 55%;
+}
+
+.temps {
+  display: flex;
+  align-items: center;
+}
+
+.city {
+  font-family: neutralFace;
+}
+
+.realFeel {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+}
+
+.lowHigh {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 30%;
+}
+
+.rightCol {
+  width: 45%;
+  text-align: right;
+}
+
+.temp {
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+  font-family: neutralFace;
+}
+
+.otherInfo {
+  display: flex;
+}
+
+.otherInfo p:first-of-type{
+  min-width: 50%;
+}
+
+.weatherImg img {
+  left: 2rem !important;
+}
+
+.searchWrapper {
+  width: 45%;
+}
+
+.backButton {
+  display: inline-block;
+  text-decoration: none;
+  font-family: archia;
+  font-weight: 800 !important;
+  font-size: 1rem;
+  height: min-content;
+  transition: all 0.3s ease;
+}
+
+.backButton:hover {
+  letter-spacing: 2px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+@media (max-width: 830px) {
+  .city {
+    font-size: 1.6rem;
+  }
+
+  .temp {
+    font-size: 4rem;
+  }
+  .searchWrapper {
+    width: 55%;
+  }
+}
+
+@media (max-width: 640px) {
+  .topBar, .cols {
+    flex-direction: column;
+  }
+  .topBar {
+    align-items:flex-start ;
+  }
+  .searchWrapper {
+    margin-top: 1.5rem;
+  }
+  .leftCol {
+    order: 2!important;
+  }
+  .leftCol, .rightCol, .searchWrapper{
+    width: 100%;
+  }
+  .rightCol {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .weatherImg {
+    width: 70%;
+  }
+  .weatherImg img {
+    left: 0 !important;
+  }
+}

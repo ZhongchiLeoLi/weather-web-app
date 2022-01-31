@@ -1,0 +1,87 @@
+@font-face {
+  font-family: neutralFace;
+  src: url(../public/NeutralFace.otf);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../public/homeBack.png");
+  background-size: cover;
+}
+
+.main {
+  margin-top: 10rem;
+  width: 60rem;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgWrapper {
+  max-width: 30vw;
+  min-width: 18rem;
+  height: fit-content;
+}
+
+.leftCol {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 5%;
+}
+
+.leftCol>h1 {
+  font-size: 5rem;
+  letter-spacing: 5px;
+  font-family: neutralFace;
+}
+
+.rightCol {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 1000px) {
+  .leftCol {
+    padding-left: 10%;
+  }
+  .leftCol>h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  .leftCol {
+    padding: 0 0;
+    height: min-content;
+    width: 80%;
+    text-align: center;
+  }
+  .rightCol {
+    padding: 0 0;
+    height: 40vh;
+    margin-top: 3rem;
+  }
+  .leftCol>h1 {
+    font-size: 2rem;
+  }
+  .leftCol {
+    order: 2!important;
+  }
+}
+

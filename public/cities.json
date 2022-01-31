@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "Toronto",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "id": "2",
+    "name": "Vancouver",
+    "state": "BC",
+    "country": "CA"
+  },
+  {
+    "id": "3",
+    "name": "New York",
+    "state": "NY",
+    "country": "USA"
+  },
+  {
+    "id": "4",
+    "name": "Los Angeles",
+    "state": "CA",
+    "country": "USA"
+  },
+  {
+    "id": "5",
+    "name": "Chicago",
+    "state": "IL",
+    "country": "USA"
+  },
+  {
+    "id": "6",
+    "name": "Miami",
+    "state": "FL",
+    "country": "USA"
+  },
+  {
+    "id": "7",
+    "name": "Tokyo",
+    "state": "ON",
+    "country": "JA"
+  },
+  {
+    "id": "8",
+    "name": "Long Beach",
+    "state": "ON",
+    "country": "USA"
+  },
+  {
+    "id": "9",
+    "name": "London",
+    "state": "ON",
+    "country": "USA"
+  },
+  {
+    "id": "10",
+    "name": "Newcastle",
+    "state": "ON",
+    "country": "USA"
+  },
+  {
+    "id": "11",
+    "name": "Nevada City",
+    "state": "ON",
+    "country": "USA"
+  },
+  {
+    "id": "12",
+    "name": "Charlotte",
+    "state": "ON",
+    "country": "USA"
+  },
+  {
+    "id": "13",
+    "name": "Mississauga",
+    "state": "ON",
+    "country": "USA"
+  },
+  {
+    "id": "14",
+    "name": "Minato",
+    "state": "ON",
+    "country": "USA"
+  }
+]
