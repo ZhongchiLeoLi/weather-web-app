@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className={styles.leftCol}>
         <h1>Weathery</h1>
-        <h3>Let's talk about the weather</h3>
+        <h3>Let&apos;s talk about the weather</h3>
         <SearchBar />
       </div>
 
